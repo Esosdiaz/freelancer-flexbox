@@ -1,0 +1,77 @@
+ *{/*llamada unversal, reset de margenes, padding y llamada a la fuente*/
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+nav{ /*establece el ancho, color, alto, y posicion de la barra de navegacion*/
+	width: 100%;
+	height: 15%;
+	background-color: #2C3E50; 
+	position: fixed;
+	left: 0;
+	z-index: 1;
+	overflow: hidden;
+}
+.logo{
+	font-size: 25px;
+	color: #fff;
+	position: absolute;
+	top: 33px;
+	left: 33px;
+	text-decoration: none;
+}
+.enlaces{ /*estilos de los enlaces*/
+	 list-style: none;
+	 position: absolute;
+	 top: 18px;
+	 right: 0px;
+	 margin: 0;
+	 overflow: hidden;
+}
+
+.navegador ul li { /*alineación enlaces barra navegador*/
+	 display: inline-block;
+}
+
+.navegador ul li a { /*enlaces de la barra*/
+	 display: inline-block;
+	 color: white;
+	 text-align: center;
+	 padding: 20px;
+	 text-decoration: none;
+	 font-size: 13px;
+}
+
+.navegador li a:hover{ /*cambia el color cuando el cursor pasa por encima*/
+	color: #18BC9C ;
+}
+.section-profile{
+	background-color: #18BC9C;
+	padding: 15%; 
+	overflow: hidden;
+	height: auto;
+}
+.container{
+	flex-direction: column;
+	align-items: center;	
+}
+.section-profile h1{
+	font-size: 66px;
+	color: white;
+}
+.section-profile p{
+	font-size: 20px;
+	color: white;
+}
+.section-portfolio{
+	padding: 15%; 
+	overflow: hidden;
+	height: auto;
+}
+.title{
+	flex-direction: column;
+	align-items: center;
+}
+.section-portfolio h1{
+	font-size: 35px;
+}

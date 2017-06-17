@@ -1,0 +1,102 @@
+*
+ * Estilos reutilizables
+ */
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.flex-container{
+	display:flex;
+}
+.mayusculas{
+	text-transform: uppercase;
+}
+.negrita{
+	font-weight: 700;
+}
+.container{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+.row {
+	clear: both;
+	width: 100%;
+}
+.row:before, .row:after{
+	content: "";
+	display: table;
+}
+
+.row:after{
+	clear: both;
+}
+.centered {
+	margin: 0 auto;
+	float: none !important;
+}
+.title {
+    margin-bottom: 50px;
+}
+[class*="col-"]{
+	 min-height: 7px;
+	 float: left;
+	 padding: 12px;
+}
+.estrella-blanca {
+	display: block;
+	width: 230px;
+	height: 5px;
+	background-color: #fff;
+	left: 0;
+	right: 0;
+	margin: 1em auto;
+	position: relative;
+	color: white;
+}
+.estrella-blanca:after {
+	content: "\f005";
+    font-family: 'FontAwesome';
+    background-color: #18BC9C;
+    width: 1.5em;
+    overflow: hidden;
+    height: 1em;
+    position: absolute;
+    text-align: center;
+    font-size: 150%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -.5em;
+}
+.estrella-negra {
+	display: block;
+	width: 230px;
+	height: 5px;
+	background-color: black;
+	left: 0;
+	right: 0;
+	margin: 1em auto;
+	position: relative;
+	color: black;
+}
+.estrella-negra:after {
+	content: "\f005";
+    font-family: 'FontAwesome';
+    background-color: #fff;
+    width: 1.5em;
+    overflow: hidden;
+    height: 1em;
+    position: absolute;
+    text-align: center;
+    font-size: 150%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -.5em;
+}
+.col-12{
+	/*(12/12)*100*/
+	width: 100%;
+}
