@@ -191,19 +191,43 @@ img.portfolio-photo {
   	font-size: 14px;
   	cursor: pointer;
 }
+.info {
+    padding: 7%;
+    background-color: #2C3E50;
+    color: whitesmoke;
+    overflow: hidden;
+    height: auto;
+}
 .informacion-container{
-	flex-direction: column;
-	align-items: center;
+	flex-direction: row;
+	align-items: start;
+	align-self: flex-start;
+	justify-content: space-around;
 }
 .location{
-	flex-direction: column;
-	align-items: center;
+	width: 30%;
+	text-align: center;
 }
 .around{
-	flex-direction: column;
-	align-items: center;
+	width: 30%;
+	text-align: center;
+
 }
 .about-free{
+	width: 30%;
+	text-align: center;
+}
+.copyright{
+	overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding-bottom: 3%;
+    padding-top: 3%;
 	flex-direction: column;
 	align-items: center;
+	background-color: #233140;
+}
+.copyright p{
+	  color: whitesmoke;
+	  font-size: 15px;
 }
